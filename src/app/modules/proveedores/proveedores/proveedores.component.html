@@ -1,0 +1,115 @@
+<nav class="navbar navbar-dark bg-dark">
+
+    <div class="container-fluid">
+        <div class="">
+            <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <i class="bi bi-justify"></i>
+            </a>
+        </div>
+        <div class="">
+            <a class="navbar-brand" href="#">
+                <img src="../../../assets/colacteos.png" alt="" height="30">
+                Colacteos
+            </a>
+        </div>
+
+    </div>
+</nav>
+
+
+
+<div class=" container mt-3">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Codigo Proveedor</th>
+                <th scope="col">Codigo Producto</th>
+                <th scope="col">Nombre Producto</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Valor Unitario</th>
+                <th scope="col">Imangen</th>
+                <th scope="col">
+                    <button class="btn btn-primary " type="button">
+                        Nuevo
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>800.197.268-4</td>
+                <td>512.167.438-1</td>
+                <td>Envases Yougourth PET</td>
+                <td>x15000</td>
+                <td>$ 720</td>
+                <td>
+                    <img src="assets/envaseYogourt.png" alt="" class="img-fluid" width="60px">
+                </td>
+                <td>
+                    <button class="btn btn-primary " type="button">
+                        <i class="bi bi-pencil"></i>
+                    </button>
+                    <button class="btn btn-danger mx-1" type="button">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>300.121.328-8</td>
+                <td>512.167.438-1</td>
+                <td>HDPE</td>
+                <td>x15000</td>
+                <td>$ 1350</td>
+                <td>
+                    <img src="assets/Envase-HDPE.jpg" alt="" class="img-fluid" width="60px">
+                </td>
+                <td>
+                    <button class="btn btn-primary " type="button">
+                        <i class="bi bi-pencil"></i>
+                    </button>
+                    <button class="btn btn-danger mx-1" type="button">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</div>
+
+
+<div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+    style="background: #afbee7;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+        </button>
+    </div>
+    <div class="offcanvas-body">
+
+        <!-- <div class="list-group ">
+            <a href="#" class="list-group-item-primary list-group-item-action">Proveedores</a>
+            <a href="#" class="list-group-item-primary list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item-primary list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item-primary list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+        </div> -->
+        <a class="btn btn-dark col-12" href="http://localhost:4200/proveedores/registrar">
+            <i class="bi bi-person-circle" style="font-size: 25px;"></i> Proveedores
+        </a>
+        <a class="btn btn-dark col-12 mt-4" href="http://localhost:4200/proveedores/registrar">
+            <i class="bi bi-basket3-fill" style="font-size: 25px;"></i> Productos
+        </a>
+        <a class="btn btn-dark col-12 mt-4" href="http://localhost:4200/proveedores/registrar">
+            <i class="bi bi-card-checklist" style="font-size: 25px;"></i> Pedidos
+        </a>
+
+    </div>
+</div>

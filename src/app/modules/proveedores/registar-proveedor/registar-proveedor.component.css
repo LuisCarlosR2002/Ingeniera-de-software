@@ -1,0 +1,10 @@
+.margen{
+    margin-top: 10%;
+}
+.textCenter {
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    padding-top: 100px
+}

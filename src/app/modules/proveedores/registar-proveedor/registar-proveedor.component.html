@@ -1,0 +1,123 @@
+<nav class="navbar navbar-dark bg-dark">
+
+    <div class="container-fluid">
+        <div class="">
+            <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <i class="bi bi-justify"></i>
+            </a>
+        </div>
+        <div class="">
+            <a class="navbar-brand" href="#">
+                <img src="../../../assets/colacteos.png" alt="" height="30">
+                Colacteos
+            </a>
+        </div>
+
+    </div>
+</nav>
+<div class="container">
+
+
+
+    <div class="row textcenter mt-4">
+        <h1>Datos del Proveedor</h1>
+
+        <div class="container mt-4 col-8 ">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nit de la empresa</span>
+                <input type="text" class="form-control" placeholder="Nit de la empresa" aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+
+        <div class="container  col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nombre de la empresa</span>
+                <input type="text" class="form-control" placeholder="Nombre de la empresa"
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+
+        <div class="container col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Direccion</span>
+                <input type="text" class="form-control" placeholder="Direccion" aria-describedby="basic-addon1">
+                <button class="btn btn-secondary dropdown-toggle mx-3" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Pais
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Colombia</a></li>
+                    <li><a class="dropdown-item" href="#">Argentina</a></li>
+                    <li><a class="dropdown-item" href="#">Ecuador</a></li>
+                </ul>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown1" aria-expanded="false">
+                    Ciudad
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#">Antioquia</a></li>
+                    <li><a class="dropdown-item" href="#">Nariño</a></li>
+                    <li><a class="dropdown-item" href="#">Cundinamarca</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Telefono</span>
+                <input type="text" class="form-control" placeholder="Telefono" aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+
+        <div class="container col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Correo</span>
+                <input type="text" class="form-control" placeholder="Correo" aria-describedby="basic-addon1">
+            </div>
+        </div>
+
+    </div>
+    <div class="row textcenter mt-4">
+        <h1>Imagen de la empresa</h1>
+        <div class="mb-3 container col-8">
+            <label for="formFile" class="form-label"></label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+    </div>
+    <div class="row textcenter mt-4">
+   
+        <div class="container col-2 ">
+            <img src="" alt="">
+            <button type="button" class="btn btn-outline-success">Guardar</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+    style="background: #afbee7;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+        </button>
+    </div>
+    <div class="offcanvas-body">
+
+        <a class="btn btn-dark col-12" href="http://localhost:4200/proveedores/registrar">
+            <i class="bi bi-person-circle" style="font-size: 25px;"></i> Proveedores
+        </a>
+        <a class="btn btn-dark col-12 mt-4" href="http://localhost:4200/proveedores/registrar">
+            <i class="bi bi-basket3-fill" style="font-size: 25px;"></i> Productos
+        </a>
+        <a class="btn btn-dark col-12 mt-4" href="http://localhost:4200/proveedores/registrar">
+            <i class="bi bi-card-checklist" style="font-size: 25px;"></i> Pedidos
+        </a>
+
+    </div>
+</div>

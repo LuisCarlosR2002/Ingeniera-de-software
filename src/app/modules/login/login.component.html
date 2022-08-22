@@ -1,0 +1,37 @@
+<div class="back">
+
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" routerLink="">
+                <img src="../../../assets/colacteos.png" alt="" width="40" height="40">
+                <span class="navbar-brand mb-0 fs-4 mx-2">Colacteos</span>
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="center">
+        <div class="row text-center">
+            <div class="col ">
+                <div class=" ">
+                    <img src="../../../assets/colacteos.png" class="rounded" alt="Colacteos" height="300">
+                </div>
+                <div class="container mt-4 col-3 form-floating ">
+                    <input type="text" class="form-control" placeholder="Usuario" 
+                        [(ngModel)]="usuario.usuario">
+                    <label style="text-align: left;" class="mx-2" for="floatingInput">Usuario</label>
+                </div>
+                <div class="container mt-4 col-3 form-floating ">
+                    <input type="password" class="form-control" placeholder="Contraseña" 
+                        [(ngModel)]="usuario.contrasena">
+                    <label style="text-align: left;" class="mx-2" for="floatingInput">Contraseña</label>
+                </div>
+                <div class="continer mt-3 text-center d-grid gap-2 col-2 mx-auto ">
+                    <button type="button" class="btn btn-outline-success"(click)="Ingresar()">Ingresar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
